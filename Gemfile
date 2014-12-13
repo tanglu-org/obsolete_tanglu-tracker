@@ -1,13 +1,13 @@
 source 'https://rubygems.org'
 
-gem "rails", "3.2.19"
+gem "rails", "3.2.21"
 gem "jquery-rails", "~> 3.1.1"
 gem "coderay", "~> 1.1.0"
 gem "fastercsv", "~> 1.5.0", :platforms => [:mri_18, :mingw_18, :jruby]
 gem "builder", ">= 3.0.4"
 gem "request_store", "1.0.5"
 gem "mime-types"
-gem "rbpdf", "~> 1.18.1"
+gem "rbpdf", "~> 1.18.2"
 
 # Optional gem for LDAP authentication
 group :ldap do
