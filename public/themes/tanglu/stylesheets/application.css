@@ -35,10 +35,10 @@ h1, h2, h3, h4, h5, h6, h7 { font-family: "Open Sans", Verdana, sans-serif; font
 
 #main { background: transparent; margin: 15px 15px 0px 15px; background-color: #fff; }
 
-#top-menu { font-size: 14px; padding: 0px 0px 0px 220px; height: 40px; background: #000 url(../images/logo.png) 10px 5px no-repeat;}
-#top-menu #loggedas { display: none; color: #FFF; padding: 11px 0 11px 5px; margin: 0; background-color: #E02222; border-left: 2px solid #DD4814; }
-#top-menu #account ul li a { background-color: #d84a38; margin-right: 8px; padding: 5px; font-size: 13px; }
-#top-menu #account ul li a:hover { background-color: #bb2413 !important; }
+#top-menu { font-size: 14px; padding: 0px 0px 0px 220px; height: 42px; background: #000 url(../images/logo.png) 10px no-repeat;}
+#top-menu #loggedas { display: none; color: #FFF; padding: 11px 0 11px 5px; margin: 0; background-color: #E02222; border-left: 2px solid #0077aa; }
+#top-menu #account ul li a { background-color: #008000; margin-right: 8px; padding: 5px; font-size: 13px; }
+#top-menu #account ul li a:hover { background-color: #006200 !important; }
 
 #top-menu ul li { padding: 11px 0 11px 0; }
 #top-menu ul li:hover { background: #444; }
@@ -63,7 +63,7 @@ div#main.nosidebar div#content { margin-right: 0px; }
 #sidebar {width: 260px !important;
 padding: 0px 10px 20px 15px !important;
 background: #ffffff;
-border: 1px solid #dd4814;
+border: 1px solid #009e00;
 zoom: 1;}
 
 div#content > h2, div#content h2.contacts_header { border-bottom: 1px solid #ccc; background: #FFF; }
@@ -118,7 +118,7 @@ div.issue.tooltip { padding: 6px; margin: 0 0 6px 0; }
 div.contact.details, div.deal.details { padding: 15px !important; margin: -11px -11px 6px; }
 
 #sidebar h3 { color: #fff;
-background: #dd4814;
+background: #009e00;
 margin: 20px -10px 15px -15px;
 padding: 5px 10px; }
 
@@ -140,7 +140,7 @@ h2, h3, h4 { border-bottom: 0px; }
 #main-menu ul:before, #main-menu ul:after { display: table; content: ""; line-height: 0; }
 #main-menu ul:after { clear: both; }
 #main-menu ul li { margin: 0; padding: 0; }
-#main-menu ul li a { background-color: #DD4814; display: block; float: left; padding: 5px 12px; color: #FFFFFF; font-weight: bold; text-decoration: none; height: 20px; }
+#main-menu ul li a { background-color: #0077aa; display: block; float: left; padding: 5px 12px; color: #FFFFFF; font-weight: bold; text-decoration: none; height: 20px; }
 #main-menu ul li a.selected { color: #FFFFFF; background-color: #000; }
 #main-menu ul li a.selected:hover { background-color: #000; color: #eee; }
 #main-menu ul li a:hover { color: #FFF; background-color: #000; }
@@ -243,7 +243,7 @@ input[type="button"]:hover, input[type="submit"]:hover, input[type="reset"]:hove
 
 color: white;
 text-shadow: none;
-background-color: #d84a38;
+background-color: #008000;
 background-image: none;
 filter: none;
 border: 0;
@@ -264,7 +264,7 @@ text-shadow: none;
 }
 .button:hover, input[type="submit"]:hover, input[type="button"]:hover , .button:active, input[type="submit"]:active , #quick-search label a:hover, button:hover {
 
-background-color: #bb2413 !important;
+background-color: #006200 !important;
 color: #fff !important;
 text-decoration: none;
  }
@@ -436,7 +436,7 @@ div.modal h3.title { background: transparent; color: inherit; }
 #modalbg { background: white; opacity: 0.75; }
 
 body.action-login #content, body.action-login #main.nosidebar #content { background: inherit; border: 0px; box-shadow: none; }
-body.action-login #login-form table { padding: 3em; background: white; border: 1px solid #dd4814; }
+body.action-login #login-form table { padding: 3em; background: white; border: 1px solid #009e00; }
 
 #login-form input#username, #login-form input#password { outline: none; margin: 0px; border: 1px solid #ccc; padding: 6px; font-size: 140%; -webkit-border-radius: 2px; -moz-border-radius: 2px; border-radius: 2px; }
 
@@ -459,7 +459,7 @@ border-top-right-radius: 0px !important;
 line-height: 1.3em;
 padding: 6px 10px 6px 10px; }
 
-#content .tabs ul li a.selected { border-top: 3px solid #DD4814; }
+#content .tabs ul li a.selected { border-top: 3px solid #0077aa; }
 #content .tabs ul li a:hover{ background-color: #fff; }
 
 #sidebar a.selected { background-color: transparent; color: gray; font-weight: bold; }
