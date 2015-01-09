@@ -333,7 +333,7 @@ module ApplicationHelper
 
   # Renders the project quick-jump box
   def render_project_jump_box
-    return unless User.current.logged?
+    return #unless User.current.logged? # FIXME: For Tanglu Tracker
     projects = User.current.memberships.collect(&:project).compact.select(&:active?).uniq
     if projects.any?
       options =

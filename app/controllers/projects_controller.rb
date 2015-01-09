@@ -53,7 +53,7 @@ class ProjectsController < ApplicationController
         unless params[:closed]
           scope = scope.active
         end
-        @projects = scope.visible.order('lft').all
+        @projects = Rails.cache.fetch('projects_vis_lft', :expires_in => 24.hours) { scope.visible.order('lft').all }
       }
       format.api  {
         @offset, @limit = api_offset_and_limit
