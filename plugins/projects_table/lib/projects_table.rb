@@ -8,7 +8,7 @@ module ProjectsTable
 
   module InstanceMethods
     def render_project_hierarchy_with_projects_table(projects)
-      tlprojects = projects.select { |p| p.level == 0 }
+      tlprojects = Rails.cache.fetch('pt_projects_toplevel', :expires_in => 24.hours) { projects.select { |p| p.level == 0 } }
       render('table', :projects => tlprojects.sort_by(&:lft))
     end
   end
